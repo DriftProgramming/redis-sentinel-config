@@ -17,6 +17,8 @@ chmod 777 ./restart.sh
 ```
 
 ## Test
+```aidl
+
 1. Enter the main sentinel
 (1) redis-cli -p 26379 
 (2) INFO
@@ -31,6 +33,8 @@ chmod 777 ./restart.sh
 (1) redis-cli -p 6379 shutdown
 (2) Do step2 again, you will see a new master
 (3) Press "Ctrl" to exit
+
+```
 
 
 
