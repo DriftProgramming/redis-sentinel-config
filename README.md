@@ -6,6 +6,8 @@ Redis sentinel configuration and usage
 Master: 6379
 Slaves: 6380,6381
 Sentinel: 26379,  26380, 26381
+Master Name: redis-local-cluster
+
 ```
 
 ## How to start
