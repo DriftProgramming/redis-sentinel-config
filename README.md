@@ -10,6 +10,7 @@ Sentinel: 26379,  26380, 26381
 
 ## How to start
 Run `./restart.sh` to restart a redis sentinel master-slave cluster.
+Please ignore the `connection refused` error when your run this shell script at the first time.
 ```aidl
 chmod 777 ./restart.sh
 ./restart.sh
